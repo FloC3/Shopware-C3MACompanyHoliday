@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.5/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="datetime">
+            <name>start</name>
+            <label lang="de">Start</label>
+            <label lang="en">Begin</label>
+            <value></value>
+            <description lang="de">Datum und Uhrzeit, ab dem Betriebsurlaub beginnt.</description>
+            <description lang="en">Beginning of the company holidays (date and time).</description>
+        </element>
+        <element type="datetime">
+            <name>end</name>
+            <label lang="de">Ende</label>
+            <label lang="en">End</label>
+            <value></value>
+            <description lang="de">Datum und Uhrzeit, ab dem Betriebsurlaub endet.</description>
+            <description lang="en">End of the company holidays (date and time).</description>
+        </element>
+    </elements>
+</config>
